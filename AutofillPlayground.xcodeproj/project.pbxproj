@@ -10,7 +10,10 @@
 		171973492879C62F00640E2B /* AutofillPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171973482879C62F00640E2B /* AutofillPlaygroundApp.swift */; };
 		1719734B2879C62F00640E2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1719734A2879C62F00640E2B /* ContentView.swift */; };
 		1719734D2879C63000640E2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1719734C2879C63000640E2B /* Assets.xcassets */; };
-		171973502879C63000640E2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1719734F2879C63000640E2B /* Preview Assets.xcassets */; };
+		171973572879C64200640E2B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171973562879C64200640E2B /* ViewModel.swift */; };
+		171973592879C66300640E2B /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171973582879C66300640E2B /* SignUp.swift */; };
+		1719735B2879C67500640E2B /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1719735A2879C67500640E2B /* SignIn.swift */; };
+		1719735D2879C68400640E2B /* Authenticated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1719735C2879C68400640E2B /* Authenticated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +21,11 @@
 		171973482879C62F00640E2B /* AutofillPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutofillPlaygroundApp.swift; sourceTree = "<group>"; };
 		1719734A2879C62F00640E2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1719734C2879C63000640E2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1719734F2879C63000640E2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		171973562879C64200640E2B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		171973582879C66300640E2B /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		1719735A2879C67500640E2B /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		1719735C2879C68400640E2B /* Authenticated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticated.swift; sourceTree = "<group>"; };
+		1719735E2879C6EC00640E2B /* AutofillPlayground.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutofillPlayground.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,18 +60,14 @@
 			children = (
 				171973482879C62F00640E2B /* AutofillPlaygroundApp.swift */,
 				1719734A2879C62F00640E2B /* ContentView.swift */,
+				171973562879C64200640E2B /* ViewModel.swift */,
+				171973582879C66300640E2B /* SignUp.swift */,
+				1719735A2879C67500640E2B /* SignIn.swift */,
+				1719735C2879C68400640E2B /* Authenticated.swift */,
+				1719735E2879C6EC00640E2B /* AutofillPlayground.entitlements */,
 				1719734C2879C63000640E2B /* Assets.xcassets */,
-				1719734E2879C63000640E2B /* Preview Content */,
 			);
 			path = AutofillPlayground;
-			sourceTree = "<group>";
-		};
-		1719734E2879C63000640E2B /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				1719734F2879C63000640E2B /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +128,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				171973502879C63000640E2B /* Preview Assets.xcassets in Resources */,
 				1719734D2879C63000640E2B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +140,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1719734B2879C62F00640E2B /* ContentView.swift in Sources */,
+				1719735D2879C68400640E2B /* Authenticated.swift in Sources */,
+				171973592879C66300640E2B /* SignUp.swift in Sources */,
+				1719735B2879C67500640E2B /* SignIn.swift in Sources */,
+				171973572879C64200640E2B /* ViewModel.swift in Sources */,
 				171973492879C62F00640E2B /* AutofillPlaygroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,7 +201,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +255,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -264,9 +270,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AutofillPlayground/AutofillPlayground.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AutofillPlayground/Preview Content\"";
 				DEVELOPMENT_TEAM = P8CC95REUG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -293,9 +299,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AutofillPlayground/AutofillPlayground.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AutofillPlayground/Preview Content\"";
 				DEVELOPMENT_TEAM = P8CC95REUG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
