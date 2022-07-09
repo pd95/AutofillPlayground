@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		171973452879C62F00640E2B /* AutofillPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutofillPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		171973452879C62F00640E2B /* AutofillPW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutofillPW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		171973482879C62F00640E2B /* AutofillPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutofillPlaygroundApp.swift; sourceTree = "<group>"; };
 		1719734A2879C62F00640E2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1719734C2879C63000640E2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		171973462879C62F00640E2B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				171973452879C62F00640E2B /* AutofillPlayground.app */,
+				171973452879C62F00640E2B /* AutofillPW.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		171973442879C62F00640E2B /* AutofillPlayground */ = {
+		171973442879C62F00640E2B /* AutofillPW */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 171973532879C63000640E2B /* Build configuration list for PBXNativeTarget "AutofillPlayground" */;
+			buildConfigurationList = 171973532879C63000640E2B /* Build configuration list for PBXNativeTarget "AutofillPW" */;
 			buildPhases = (
 				171973412879C62F00640E2B /* Sources */,
 				171973422879C62F00640E2B /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = AutofillPlayground;
+			name = AutofillPW;
 			productName = AutofillPlayground;
-			productReference = 171973452879C62F00640E2B /* AutofillPlayground.app */;
+			productReference = 171973452879C62F00640E2B /* AutofillPW.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				171973442879C62F00640E2B /* AutofillPlayground */,
+				171973442879C62F00640E2B /* AutofillPW */,
 			);
 		};
 /* End PBXProject section */
@@ -335,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		171973532879C63000640E2B /* Build configuration list for PBXNativeTarget "AutofillPlayground" */ = {
+		171973532879C63000640E2B /* Build configuration list for PBXNativeTarget "AutofillPW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				171973542879C63000640E2B /* Debug */,
