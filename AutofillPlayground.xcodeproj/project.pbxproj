@@ -14,6 +14,7 @@
 		171973592879C66300640E2B /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171973582879C66300640E2B /* SignUp.swift */; };
 		1719735B2879C67500640E2B /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1719735A2879C67500640E2B /* SignIn.swift */; };
 		1719735D2879C68400640E2B /* Authenticated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1719735C2879C68400640E2B /* Authenticated.swift */; };
+		1728DBE5287B29680008937E /* AutofillTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1728DBE4287B29680008937E /* AutofillTextFields.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		1719735C2879C68400640E2B /* Authenticated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticated.swift; sourceTree = "<group>"; };
 		1719735E2879C6EC00640E2B /* AutofillPlayground.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutofillPlayground.entitlements; sourceTree = "<group>"; };
 		1728DBE32879D1580008937E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1728DBE4287B29680008937E /* AutofillTextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutofillTextFields.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				171973582879C66300640E2B /* SignUp.swift */,
 				1719735A2879C67500640E2B /* SignIn.swift */,
 				1719735C2879C68400640E2B /* Authenticated.swift */,
+				1728DBE4287B29680008937E /* AutofillTextFields.swift */,
 				1719735E2879C6EC00640E2B /* AutofillPlayground.entitlements */,
 				1719734C2879C63000640E2B /* Assets.xcassets */,
 			);
@@ -146,6 +149,7 @@
 				171973592879C66300640E2B /* SignUp.swift in Sources */,
 				1719735B2879C67500640E2B /* SignIn.swift in Sources */,
 				171973572879C64200640E2B /* ViewModel.swift in Sources */,
+				1728DBE5287B29680008937E /* AutofillTextFields.swift in Sources */,
 				171973492879C62F00640E2B /* AutofillPlaygroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

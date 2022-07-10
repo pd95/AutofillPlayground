@@ -11,25 +11,20 @@ struct Authenticated: View {
     @ObservedObject var model: ViewModel
 
     var body: some View {
-        VStack {
-            Text(model.username)
-                .font(.largeTitle)
-                .toolbar {
-                    Button("Sign out") {
-                        model.signOut()
-                    }
+        AutofillTextFields()
+            .navigationTitle("Welcome \(model.username)")
+            .toolbar {
+                Button("Sign out") {
+                    model.signOut()
                 }
-
-            Spacer()
-        }
-        .navigationTitle("Welcome")
+            }
     }
 }
 
 struct Authenticated_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            Authenticated(model: .init(fakeState: .authenticated(username: "doe")))
+            Authenticated(model: .init(fakeState: .authenticated(username: "John")))
         }
     }
 }
